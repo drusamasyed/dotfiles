@@ -1,4 +1,4 @@
-# Khurram's dotfiles
+# Usama's dotfiles
 
 ## Components
 
@@ -19,10 +19,11 @@ There's a few special files in the hierarchy.
   symlinked in when you run `script/bootstrap`.
 
 ## Installation
+
 Run this:
 
 ```sh
-git clone https://github.com/khurram/dotfiles.git ~/.dotfiles
+git clone https://github.com/drusamasyed/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -37,7 +38,3 @@ which sets up a few paths that'll be different on your particular machine.
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
-
-## Credits
-* Ryan Bates and his awesome dotfiles
-* Zach Holman
